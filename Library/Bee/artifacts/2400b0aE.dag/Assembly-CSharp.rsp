@@ -333,7 +333,6 @@
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/SimpleJSON.cs"
 "Assets/Scripts/TestController.cs"
-"Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:8.0
 
 /deterministic
