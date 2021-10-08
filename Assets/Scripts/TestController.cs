@@ -1,5 +1,3 @@
-/*Siguiendo el tutorial: https://www.youtube.com/watch?v=Yp8uPxEn6Vg&t=225s*/
-
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Threading.Tasks;

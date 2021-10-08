@@ -329,10 +329,12 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Scripts/DataManager.cs"
 "Assets/Scripts/PositionLogic.cs"
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/SimpleJSON.cs"
 "Assets/Scripts/TestController.cs"
+"Assets/Scripts/User.cs"
 -langversion:8.0
 
 /deterministic

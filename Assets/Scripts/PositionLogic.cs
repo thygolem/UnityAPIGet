@@ -34,7 +34,7 @@ public class PositionLogic : MonoBehaviour
                 timerIsActive=false;
                 positionText.color = Color.grey;
             }
-            Debug.Log(currentTime);
+            //Debug.Log(currentTime);
 
         }
     }

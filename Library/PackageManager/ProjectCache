@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637686856220000000
-    m_Hash: 736635977
+      ticks: 637692755040000000
+    m_Hash: 3739250274
   m_LockFileStatus:
     m_FilePath: /home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637686856400000000
+      ticks: 637692755040000000
     m_Hash: 2015589077
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2983,9 +2983,11 @@ m_ResolvedPackages:
     - 1.1.0-preview.1
     - 1.1.0
     - 1.2.1
+    - 1.2.4
     compatible:
     - 1.2.1
-    verified: 1.2.1
+    - 1.2.4
+    verified: 1.2.4
   dependencies: []
   resolvedDependencies: []
   keywords:
