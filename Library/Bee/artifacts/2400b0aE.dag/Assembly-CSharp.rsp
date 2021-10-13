@@ -106,6 +106,7 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/PackageCache/com.unity.cinemachine@2.7.8/Runtime/ThirdParty/clipper_library.dll"
 -r:"/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
 -r:"/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"/home/ubuntu/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -300,6 +301,7 @@
 -r:"/home/ubuntu/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
 -r:"/home/ubuntu/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 -r:"/home/ubuntu/Unity/Hub/Editor/2021.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -329,6 +331,7 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/VSSettingsProvider.ref.dll"
+-r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 "Assets/Scripts/DataManager.cs"
 "Assets/Scripts/PositionLogic.cs"
 "Assets/Scripts/ReadPosition.cs"
