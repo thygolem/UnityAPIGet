@@ -14,12 +14,13 @@ public class User : MonoBehaviour
     {
         //path = Application.streamingAssetsPath + "/Devices.json";
         path = "/home/ubuntu/Escritorio/Simó/INDOOR/Devices.json";
+        //path = "/home/ubuntu/Escritorio/Simó/INDOOR/example.json";
         jsonString = File.ReadAllText(path);
         Device ESP = JsonUtility.FromJson<Device>(jsonString);
         Debug.Log(ESP.id);
         ESP.currentRssi = -25;
         string newESP = JsonUtility.ToJson(ESP);
-        Debug.Log(newESP);
+        //Debug.Log(newESP.id);
     }    
 }
     
@@ -36,6 +37,9 @@ public class Device
     public string building ;
     public string floor;
     public string zone;
+    public string xPosition;
+    public string yPosition;
+    public string zPosition;
     public float lat;
     public float lng;
     public bool task;

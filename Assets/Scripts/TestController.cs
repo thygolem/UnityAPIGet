@@ -8,7 +8,8 @@ public class TestController : MonoBehaviour
     [ContextMenu("Test Get")]
     public async void TestGet()
     {
-        var url = "http://127.0.0.1:8000/devices/";
+        //var url = "http://127.0.0.1:8000/devices/";
+        var url = "http://127.0.0.1:8000/devices/61669d21be54d7e531d45c5e";
 
         using var www = UnityWebRequest.Get(url);
 

@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\TestController.cs" />
      <Compile Include="Assets\Scripts\User.cs" />
      <Compile Include="Assets\Scripts\DataManager.cs" />
+     <Compile Include="Assets\Scripts\ReadPosition.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/ubuntu/Unity/Hub/Editor/2021.1.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

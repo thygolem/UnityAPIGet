@@ -22,9 +22,7 @@ public class PositionLogic : MonoBehaviour
     {       
         if(timerIsActive)
         {
-            randomX = GetRandomPosition(-100, 100);
-            randomY = GetRandomPosition(-100, 100);
-            randomZ = GetRandomPosition(-100, 100);
+
             currentTime -= 1 * Time.deltaTime;
             countdownText.text = currentTime.ToString("0");
             if (currentTime <=0 )
@@ -41,10 +39,14 @@ public class PositionLogic : MonoBehaviour
 
     public void OnButtonClick()
     {
+        randomX = GetRandomPosition(-100, 100);
+        randomY = GetRandomPosition(-100, 100);
+        randomZ = GetRandomPosition(-100, 100);
         timerIsActive=true;
         currentTime = 10f;
         print(currentTime);
         positionText.color = Color.green;
+        
 
 
         if(randomX > 0 & randomY > 0 & randomZ > 0)
