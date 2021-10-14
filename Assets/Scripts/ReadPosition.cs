@@ -46,7 +46,7 @@ public class ReadPosition : MonoBehaviour
     [ContextMenu("Test Get")]
     public async void TestGet()
     {   
-        var url = "http://127.0.0.1:8000/devices/6166c27d8ba41e795554d178";
+        var url = "http://127.0.0.1:8000/devices/6167ddd80ef0ed92433bf123";
 
         //var url = "http://127.0.0.1:8000/devices/";
         using var www = UnityWebRequest.Get(url);

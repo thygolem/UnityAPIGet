@@ -274,6 +274,9 @@
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="clipper_library">
+        <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/PackageCache/com.unity.cinemachine@2.7.8/Runtime/ThirdParty/clipper_library.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -690,6 +693,12 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
         <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
         <HintPath>/home/ubuntu/Escritorio/Agosto/unity/New Unity Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
