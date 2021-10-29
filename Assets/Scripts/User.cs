@@ -1,4 +1,22 @@
-//https://www.youtube.com/watch?v=6yDRbnXve_0
+
+
+
+/*
+
+ESTE SCRIPT CONTIENE LA DECLARACIÓN DE LAS VARIABLES QUE VAN A USAR OTROS SCRIPTS:
+
+ - ReadPosition.cs => para recoger datos de un dispositivo concreto
+        (apunte, UNITYDATA.MONGODB debería recoger el id de cada dispositivo para derivar ese dato
+        a BLEDATA.MONGODB)
+
+ - newBLE.cs => nos va a servir para instanciar la cantidad de prefabs que necesitemos.
+        Tantos prefabs como "public string bledata_count;" tenga
+
+*/
+
+
+// tutorial de Using JSONUtility in Unity 5.3 - Working with JSON in Unity: 
+// https://www.youtube.com/watch?v=6yDRbnXve_0
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,9 +35,11 @@ public class User : MonoBehaviour
         //path = "/home/ubuntu/Escritorio/Simó/INDOOR/example.json";
         jsonString = File.ReadAllText(path);
         Device ESP = JsonUtility.FromJson<Device>(jsonString);
-        Debug.Log(ESP.id);
-        ESP.currentRssi = -25;
-        string newESP = JsonUtility.ToJson(ESP);
+        //UnityDevices UnityData = JsonUtility.FromJson<UnityDevices>(jsonString);   /**/
+
+        //Debug.Log(ESP.id);
+        //ESP.currentRssi = -25;
+        //string newESP = JsonUtility.ToJson(ESP);
         //Debug.Log(newESP.id);
     }    
 }
@@ -45,59 +65,14 @@ public class Device
     public bool task;
 }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /*public string id { get; set;}
-    public string iss { get; set;}
-    public string esp_mac { get; set;}
-    public string near_mac { get; set;}
-    public int currentRssi { get; set;}
-    public string lastRssiS { get; set;}
-    public string espTime { get; set;}
-    public string building { get; set;}
-    public string floor { get; set;}
-    public string zone { get; set;}
-    public float lat { get; set; }
-    public float lng { get; set; }
-    public bool task { get; set; }*/
 
-
-
-/*
-{
-  "id": "615b1711945a9d861ca922d2",
-  "iss": "4c:11:ae:8b:4c:94, fd:04:ce:a4:90:e6",
-  "esp_mac": "4c:11:ae:8b:4c:94",
-  "near_mac": "fd:04:ce:a4:90:e6",
-  "currentRssi": -93,
-  "lastRssiS": [
-    -99,
-    -99,
-    -94,
-    -94,
-    -10,
-    -93
-  ],
-  "espTime": "b'10-06T12:28:57'",
-  "building": "string",
-  "floor": "string",
-  "zone": "string",
-  "lat": 0.0,
-  "lng": 0.0,
-  "task": true
-}
-
-
-*/
+//public class UnityDevices
+//{
+//    public string id;
+//    public bool sistema_iniciado;
+//    public int bledata_count;
+//    public string[] dispositivos;
+//    public string near_mac;
+//    public string esp_mac;
+//    public string status;
+//}

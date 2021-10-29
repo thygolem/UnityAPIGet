@@ -339,6 +339,8 @@
 "Assets/Scripts/SimpleJSON.cs"
 "Assets/Scripts/TestController.cs"
 "Assets/Scripts/User.cs"
+"Assets/Scripts/moveFoward.cs"
+"Assets/Scripts/newBLE.cs"
 -langversion:8.0
 
 /deterministic
