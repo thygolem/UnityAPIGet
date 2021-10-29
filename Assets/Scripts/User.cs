@@ -25,22 +25,17 @@ using System.IO;
 public class User : MonoBehaviour
 {
     
-    string path;
+    //string path;
     string jsonString;
+    string jsonStringUnity;
 
     void Start()
     {
-        //path = Application.streamingAssetsPath + "/Devices.json";
-        path = "/home/ubuntu/Escritorio/Simó/INDOOR/Devices.json";
-        //path = "/home/ubuntu/Escritorio/Simó/INDOOR/example.json";
-        jsonString = File.ReadAllText(path);
-        Device ESP = JsonUtility.FromJson<Device>(jsonString);
-        //UnityDevices UnityData = JsonUtility.FromJson<UnityDevices>(jsonString);   /**/
 
-        //Debug.Log(ESP.id);
-        //ESP.currentRssi = -25;
-        //string newESP = JsonUtility.ToJson(ESP);
-        //Debug.Log(newESP.id);
+        Device ESP = JsonUtility.FromJson<Device>(jsonString);
+        UnityDevices UnityData = JsonUtility.FromJson<UnityDevices>(jsonStringUnity);   /**/
+
+
     }    
 }
     
@@ -66,13 +61,14 @@ public class Device
 }
     
 
-//public class UnityDevices
-//{
-//    public string id;
-//    public bool sistema_iniciado;
-//    public int bledata_count;
-//    public string[] dispositivos;
-//    public string near_mac;
-//    public string esp_mac;
-//    public string status;
-//}
+public class UnityDevices
+{
+    public string id;
+    public string unityId;
+    public bool sistema_iniciado;
+    public int bledata_count;
+    public string[] dispositivos;
+    //public string near_mac;
+    //public string esp_mac;
+    //public string status;
+}

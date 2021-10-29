@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 public class ReadPosition : MonoBehaviour
 {
-    private string jsonString;
+    string jsonString;
     public Text showEspNear;
     public Text showRssi;
     public Text showTime;
@@ -73,6 +73,7 @@ public class ReadPosition : MonoBehaviour
         showEspNear.text = ESP.near_mac; // UI
         showTime.text = ESP.espTime; // UI
         showRssi.text = ESP.currentRssi.ToString(""); // UI
+        Debug.Log(showRssi.text);
 
         if (ESP.esp_mac == "4c:11:ae:8b:4c:94")
         {
