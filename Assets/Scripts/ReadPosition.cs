@@ -73,7 +73,7 @@ public class ReadPosition : MonoBehaviour
         showEspNear.text = ESP.near_mac; // UI
         showTime.text = ESP.espTime; // UI
         showRssi.text = ESP.currentRssi.ToString(""); // UI
-        Debug.Log(showRssi.text);
+        //Debug.Log(showRssi.text);
 
         if (ESP.esp_mac == "4c:11:ae:8b:4c:94")
         {
