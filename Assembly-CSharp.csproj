@@ -38,7 +38,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\moveFoward.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
-     <Compile Include="Assets\Scripts\PositionLogic.cs" />
      <Compile Include="Assets\Scripts\SimpleJSON.cs" />
      <Compile Include="Assets\Scripts\newBLE.cs" />
      <Compile Include="Assets\Scripts\ReadPosition.cs" />

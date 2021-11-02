@@ -332,7 +332,6 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/VSSettingsProvider.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/com.unity.cinemachine.editor.ref.dll"
-"Assets/Scripts/PositionLogic.cs"
 "Assets/Scripts/ReadPosition.cs"
 "Assets/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/SimpleJSON.cs"

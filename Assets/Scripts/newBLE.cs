@@ -12,20 +12,15 @@ using System;
 //https://www.youtube.com/watch?v=u1dLdXBTBB8
 public class newBLE : MonoBehaviour
 {
-    public ReadPosition ReadPosition;
     public GameObject BLEPrefab;
     // Update is called once per frame
     
     string jsonStringUnity;
 
     //public Text UNITYiD;
-    public Transform ZoneA, ZoneB, ZoneC, ZoneD, ZoneE, ZoneF, ZoneG, ZoneH;
 
 
-    public Transform BLE_Origin;
-    public Text BLEDeviceCount;
 
-    int bledata_count;
     float currentTime = 0f;
     float startingTime = 0f;
 
@@ -33,7 +28,7 @@ public class newBLE : MonoBehaviour
 
     public List<GameObject> prefabList = new List<GameObject>();
 
-    int deviceCount;    
+      
     void Start()
     {   
         currentTime = startingTime;
@@ -41,8 +36,7 @@ public class newBLE : MonoBehaviour
         var bleurl = "http://127.0.0.1:8000/unity/617bbebf6f481d596789c1da";
         using var wwwUnity = UnityWebRequest.Get(bleurl);
         UnityDevices UnityData = JsonUtility.FromJson<UnityDevices>(jsonStringUnity);   /**/
-        //BLEDeviceCount.text = UnityData.bledata_count.ToString(""); // UI
-        //deviceCount = BLEDeviceCount.text.ToInt();
+
         InvokeRepeating("ShowDevices", 1, 1);
             // Qué void usaremos, cuándo empieza y cada cuánto se repite
         Invoke("CancelInvoke", 50);
@@ -52,7 +46,7 @@ public class newBLE : MonoBehaviour
     }
 
     void Update()
-    {       
+    {    
         currentTime += 1 * Time.deltaTime;
         if ((int)currentTime%2==0)
         {

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class moveFoward : MonoBehaviour
 {
-    public Transform ZoneA, ZoneB, ZoneC, ZoneD, ZoneE, ZoneF, ZoneG, ZoneH;
 
     public float speed;
 
@@ -12,9 +11,7 @@ public class moveFoward : MonoBehaviour
     void Update()
     {
         transform.Translate(0,0,speed*Time.deltaTime);
-        //Vector3 a = transform.position;
-        //Vector3 b = ZoneH.position;
-        //transform.position = Vector3.Lerp(a, b, speed*Time.deltaTime);
+
 
         //https://docs.unity3d.com/ScriptReference/Vector3.MoveTowards.html
     }
